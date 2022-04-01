@@ -7,7 +7,9 @@ import android.os.Handler
 import android.view.View
 import android.view.Window
 import android.widget.ProgressBar
+import android.widget.Toast
 import com.example.secondexercise.features.onBoarding.OnboardingOne
+import com.example.secondexercise.utils.DataStore
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,7 +40,6 @@ class MainActivity : AppCompatActivity() {
                     e.printStackTrace()
                 }
             }
-//sua cai gi do
 //            sadadas
             progressBar!!.visibility = View.INVISIBLE
 

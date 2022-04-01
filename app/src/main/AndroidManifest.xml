@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Secondexercise">
         <activity
+            android:name=".features.list.RestaurantActivity"
+            android:exported="false" />
+        <activity
             android:name=".features.welcome.Welcome"
             android:exported="false" />
         <activity
