@@ -10,6 +10,7 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.example.secondexercise.features.list.RestaurantActivity
 import com.example.secondexercise.features.profile.Profile
 import com.example.secondexercise.utils.DataStore
 import com.example.secondexercise.viewmodels.LoginViewModel
@@ -65,7 +66,7 @@ class Login : AppCompatActivity() {
         val success = viewModel.doLogin(username, password)
         if(success) {
             Toast.makeText(this@Login, "Login Success!", Toast.LENGTH_SHORT).show()
-            val intent = Intent(this@Login, Profile::class.java)
+            val intent = Intent(this@Login, RestaurantActivity::class.java)
             val bundle = Bundle()
             bundle.putString("username", username)
             bundle.putString("password", password)
