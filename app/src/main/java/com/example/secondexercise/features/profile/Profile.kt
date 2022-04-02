@@ -20,11 +20,6 @@ import com.example.secondexercise.viewmodels.ProfileViewModel
 
 class Profile : AppCompatActivity() {
 
-//    private lateinit var btnTextFullname:Button
-//    private lateinit var btnTextEmail:Button
-//    private lateinit var btnTextPhone: Button
-//    private lateinit var txtFullname:TextView
-//    private lateinit var btnBack:CardView
 
     private lateinit var binding:ActivityProfileBinding
     private lateinit var viewModel:ProfileViewModel
@@ -106,11 +101,4 @@ class Profile : AppCompatActivity() {
         dialog.show()
     }
 
-//    private fun initializeWidget() {
-//        btnTextFullname = findViewById(R.id.btnFullnameProfile)
-//        btnTextEmail = findViewById(R.id.btnEmailProfile)
-//        btnTextPhone = findViewById(R.id.btnPhoneNumberProfile)
-//        txtFullname = findViewById(R.id.textViewFullnameProfile)
-//        btnBack = findViewById(R.id.cardViewBack)
-//    }
 }

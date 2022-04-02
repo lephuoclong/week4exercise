@@ -20,13 +20,6 @@ import kotlin.properties.Delegates
 
 
 class Register : AppCompatActivity() {
-//    private var editTextFullname :EditText?=null
-//    private var editTextEmail :EditText?=null
-//    private var editTextPassword :EditText?=null
-//    private var imageViewVisible:ImageView?=null
-//    private var btnSignUp:Button?=null
-//    private var btnComeBackWelcome:Button?=null
-//    private var containerLayout:ConstraintLayout?=null
     private lateinit var binding:ActivityRegisterBinding
     private lateinit var viewModel:RegisterViewModel
     private var error:String=""
@@ -101,15 +94,7 @@ class Register : AppCompatActivity() {
             binding.imageViewShowHidePassword.setImageResource(R.drawable.ic_visibility_off)
         }
     }
-//    private fun initializeWidget(){
-//        editTextFullname = findViewById(R.id.editTextFullnameSignup)
-//        editTextEmail = findViewById(R.id.editTextEmailSignup)
-//        editTextPassword = findViewById(R.id.editTextPasswordSignUp)
-//        imageViewVisible = findViewById(R.id.imageViewShowHidePassword)
-//        btnSignUp = findViewById(R.id.buttonSignUp)
-//        btnComeBackWelcome = findViewById(R.id.btnComeBackWelcome)
-//        containerLayout = findViewById(R.id.containerLayout)
-//    }
+
 }
 
 
